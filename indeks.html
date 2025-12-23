@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UHUY | Company Profile</title>
+  <meta name="description" content="UHUY builds bold digital experiences. Design. Tech. Impact." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Top Announcement -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span class="topbar__text">UHUY Studio: Digital that moves fast.</span>
+      <a class="topbar__link" href="#cta">Start a project</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="UHUY Home">
+        <span class="logo__mark"></span>
+        <span class="logo__text">UHUY</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#stories">Stories</a>
+        <a href="#about">About</a>
+        <a href="#cta">Contact</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="iconbtn" id="btnSearch" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Zm6.11-1.39L22 22l-1.41 1.41-5.39-5.39 1.41-1.41Z"/>
+          </svg>
+        </button>
+
+        <button class="iconbtn" id="btnMenu" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="drawer" id="drawer" aria-hidden="true">
+      <div class="drawer__panel">
+        <div class="drawer__top">
+          <span class="drawer__title">Menu</span>
+          <button class="iconbtn" id="btnClose" aria-label="Close menu">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18.3 5.71 12 12l6.3 6.29-1.41 1.42L10.59 13.4 4.3 19.71 2.89 18.3 9.17 12 2.89 5.71 4.3 4.29l6.29 6.3 6.3-6.3 1.41 1.42Z"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="drawer__links">
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#stories">Stories</a>
+          <a href="#about">About</a>
+          <a href="#cta">Contact</a>
+        </div>
+
+        <div class="drawer__cta">
+          <a class="btn btn--primary" href="#cta">Start a project</a>
+          <a class="btn btn--ghost" href="#services">Explore services</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow">UHUY DIGITAL STUDIO</p>
+        <h1 class="hero__title">MOVE DIFFERENT.<br/>BUILD BETTER.</h1>
+        <p class="hero__subtitle">
+          Kami bikin website & brand system yang kenceng, clean, dan kelihatan mahal.
+          Bukan yang “asal jadi”.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#work">Explore work</a>
+          <a class="btn btn--ghost" href="#cta">Contact</a>
+        </div>
+
+        <div class="hero__meta">
+          <div class="meta">
+            <span class="meta__k">Focus</span>
+            <span class="meta__v">Design • UI/UX • Web</span>
+          </div>
+          <div class="meta">
+            <span class="meta__k">Speed</span>
+            <span class="meta__v">Fast delivery, no chaos</span>
+          </div>
+          <div class="meta">
+            <span class="meta__k">Quality</span>
+            <span class="meta__v">Grid, spacing, system</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category tiles -->
+    <section class="tiles" id="work">
+      <div class="container sectionhead">
+        <h2>Featured directions</h2>
+        <p>3 jalur yang sering kita bangun. Tinggal pilih vibe-nya.</p>
+      </div>
+
+      <div class="container tiles__grid">
+        <a class="tile" href="#services">
+          <div class="tile__img tile__img--1" aria-hidden="true"></div>
+          <div class="tile__overlay">
+            <span class="tile__tag">PERFORMANCE</span>
+            <span class="tile__title">High-converting landing</span>
+            <span class="tile__desc">Hero besar, copy singkat, CTA jelas.</span>
+          </div>
+        </a>
+
+        <a class="tile" href="#stories">
+          <div class="tile__img tile__img--2" aria-hidden="true"></div>
+          <div class="tile__overlay">
+            <span class="tile__tag">STREET</span>
+            <span class="tile__title">Brand identity system</span>
+            <span class="tile__desc">Logo, typographic rules, and consistency.</span>
+          </div>
+        </a>
+
+        <a class="tile" href="#about">
+          <div class="tile__img tile__img--3" aria-hidden="true"></div>
+          <div class="tile__overlay">
+            <span class="tile__tag">TECHWEAR</span>
+            <span class="tile__title">UI kits & components</span>
+            <span class="tile__desc">Reusable design system, dev-ready.</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Featured Drop -->
+    <section class="drop">
+      <div class="container drop__inner">
+        <div class="drop__media" aria-hidden="true"></div>
+        <div class="drop__content">
+          <p class="badge">NEW DROP</p>
+          <h3>UHUY Launch Kit</h3>
+          <p class="muted">
+            Paket “anti template murahan”: 1 landing page + brand mini-kit + UI components dasar.
+            Cocok buat startup tech yang pengen keliatan serius.
+          </p>
+          <div class="drop__actions">
+            <a class="btn btn--primary" href="#cta">Get the kit</a>
+            <a class="btn btn--ghost" href="#services">See details</a>
+          </div>
+
+          <div class="drop__stats">
+            <div class="stat">
+              <span class="stat__n">7–14</span>
+              <span class="stat__l">days delivery</span>
+            </div>
+            <div class="stat">
+              <span class="stat__n">1</span>
+              <span class="stat__l">design system</span>
+            </div>
+            <div class="stat">
+              <span class="stat__n">∞</span>
+              <span class="stat__l">confidence boost</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container sectionhead">
+        <h2>What we build</h2>
+        <p>Yang penting jelas: rapi, kenceng, dan bisa dipertanggungjawabkan.</p>
+      </div>
+
+      <div class="container cards">
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">⚡</div>
+          <h3>Web Experiences</h3>
+          <p>Company profile, landing, promo page. Clean layout, fast load.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🧠</div>
+          <h3>UI/UX Design</h3>
+          <p>Flow jelas, hierarchy bener, dan user ga perlu “nebak-nebak”.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🧩</div>
+          <h3>Design System</h3>
+          <p>Komponen rapi, scale gampang. Dev juga ga sengsara.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🎯</div>
+          <h3>Brand Direction</h3>
+          <p>Visual rules + tone copy biar brand kamu konsisten dan kuat.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Stories -->
+    <section class="stories" id="stories">
+      <div class="container sectionhead sectionhead--row">
+        <div>
+          <h2>Stories</h2>
+          <p>Highlight yang bikin kamu terlihat “niat”, bukan “sekadar tugas”.</p>
+        </div>
+        <a class="link" href="#cta">Pitch us →</a>
+      </div>
+
+      <div class="container stories__grid">
+        <article class="story">
+          <div class="story__img story__img--1" aria-hidden="true"></div>
+          <div class="story__body">
+            <p class="story__tag">PROCESS</p>
+            <h3>Spacing & grid itu bukan dekorasi</h3>
+            <p class="muted">Beda web mahal vs web tugas biasanya cuma ini. Ironis tapi nyata.</p>
+          </div>
+        </article>
+
+        <article class="story">
+          <div class="story__img story__img--2" aria-hidden="true"></div>
+          <div class="story__body">
+            <p class="story__tag">DESIGN</p>
+            <h3>Bold type + minimal copy = confidence</h3>
+            <p class="muted">Kalimat pendek tapi tajem. Jangan bikin novel di landing page.</p>
+          </div>
+        </article>
+
+        <article class="story">
+          <div class="story__img story__img--3" aria-hidden="true"></div>
+          <div class="story__body">
+            <p class="story__tag">BUILD</p>
+            <h3>Komponen rapi bikin cepat iterasi</h3>
+            <p class="muted">Kalau semuanya modular, revisi ga jadi tragedi.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <div class="about__copy">
+          <p class="eyebrow">WHO WE ARE</p>
+          <h2>UHUY is a studio built for speed and clarity.</h2>
+          <p class="muted">
+            Kami fokus bikin tampilan yang kuat, struktur yang rapi, dan alur yang masuk akal.
+            Kamu mau terlihat profesional? Kita bantu, tanpa drama.
+          </p>
+
+          <div class="about__bullets">
+            <div class="bullet">
+              <span class="bullet__k">Principle</span>
+              <span class="bullet__v">Simple, bold, scalable</span>
+            </div>
+            <div class="bullet">
+              <span class="bullet__k">Deliverable</span>
+              <span class="bullet__v">Design + ready-to-build structure</span>
+            </div>
+            <div class="bullet">
+              <span class="bullet__k">Mindset</span>
+              <span class="bullet__v">Future-proof thinking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__panel" aria-hidden="true">
+          <div class="panel">
+            <div class="panel__row">
+              <span>Projects shipped</span><strong>32+</strong>
+            </div>
+            <div class="panel__row">
+              <span>Avg. delivery</span><strong>10 days</strong>
+            </div>
+            <div class="panel__row">
+              <span>Style</span><strong>Bold Minimal</strong>
+            </div>
+            <div class="panel__divider"></div>
+            <p class="panel__note">
+              “Kalau bisa kelihatan mahal, kenapa milih kelihatan biasa?”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="cta">
+      <div class="container cta__inner">
+        <h2>Ready to level up your brand?</h2>
+        <p class="muted">Kirim brief singkat. Kita balas dengan rencana yang jelas, bukan janji kosong.</p>
+        <form class="cta__form" id="leadForm">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Email kamu" required />
+          <button class="btn btn--primary" type="submit">Send</button>
+        </form>
+        <p class="cta__hint">Atau chat: <span class="mono">uhuy@studio.fake</span></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="logo logo--footer">
+          <span class="logo__mark"></span>
+          <span class="logo__text">UHUY</span>
+        </div>
+        <p class="muted">Bold digital experiences. Built with taste.</p>
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#stories">Stories</a>
+        </div>
+        <div class="footer__col">
+          <h4>Help</h4>
+          <a href="#cta">Contact</a>
+          <a href="#top">Back to top</a>
+        </div>
+        <div class="footer__col">
+          <h4>Social</h4>
+          <a href="#" aria-disabled="true">Instagram</a>
+          <a href="#" aria-disabled="true">TikTok</a>
+          <a href="#" aria-disabled="true">YouTube</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> UHUY Studio. All rights reserved.</span>
+      <span class="muted">Built for class domination.</span>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
